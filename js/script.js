@@ -3,6 +3,7 @@ var ethPrice = 0
 var cardanoPrice = 0
 var dogePrice = 0
 
+FetchNewPrices()
 setInterval(FetchNewPrices, 10000)
 
 function httpGet(url)
